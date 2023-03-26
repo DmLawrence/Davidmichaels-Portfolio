@@ -5,6 +5,7 @@ body {
 	font-family: 'Trebuchet MS', 'Century Gothic';
 	background-color: #222831;
 	background-image: url("./resources/bg-img.jpg");
+	background-repeat: space;
 	background-position: center;
 	background-attachment: fixed;
 	color: #EEEEEE;
