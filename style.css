@@ -4,11 +4,10 @@ body {
 	width: 100%;
 	font-family: 'Trebuchet MS', 'Century Gothic';
 	background-color: #222831;
-	background-image: url("./resources/bg-img.jpg") center no-repeat;
+	background-image: url("./resources/bg-img.jpg");
 	background-position: center;
 	background-attachment: fixed;
 	color: #EEEEEE;
-
 }
 
 a {
