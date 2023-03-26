@@ -1,48 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Davidmichael's Portfolio</title>
-  <link href="style.css" rel="stylesheet">
-  <script src="https://polyfill.io/v3/polyfill.min.js"></script>
-  </head>
-  <body>
-    <header class="print-only">
-	  <div class='name'><h1>Davidmichael Lawrence</h1><div>
-	  <img src="./davlaw.jpg" id="profile-pic" alt="David's Headshot Photo">
-	</header>
-	<div class='contain'>
-	<nav aria-label="Navigation">
-	  <form action="" metdod="GET">
-		  <label for="username">Username</label>
-		  <input type="text" name="username" id="username" pattern="[a-zA-Z0-9_-]{8,15}" required>
-		  <br>
-		  <label for="password">Password</label>
-		  <input type="password" name="password" id="password" pattern="[a-zA-Z0-9_-!$%^&*@ ]{8,40}" required>
-		  <input type="submit" value="Login">
-		</form>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Davidmichael's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body lang="en">
+	<nav class="sticky">
 		<ul>
 			<li><a href="resume.html">Resume</a></li>
-			<!-- <li><a href='progress.html'>Progress</a></li> -->
-			<li><a href="mailto: dmlawrence@gmail.com">DmLawrence@gmail.com</a></li>
+			<li><a href="construction.html">AI Art Gallery</a></li>
+			<li><a href="construction.html">Projects</a></li>
+			<li class="push"><a href="construction.html">Contact Me</a></li>
 		</ul>
 	</nav>
-	<main class="print-only">
-	  <section class="cover-letter">
-	    <h2>Welcome!</h2>
-		<div class="content " aria-label="Cover Letter">
+	<div class="title">
+		<img src="./resources/davlaw.jpg">
+		<h1><span>Davidmichael Lawrence</span></h1>
+	</div>
+	<div class="content">
+		<h2>Welcome</h2>
+		<div class="content dark-bg">
 			<p>I have created this site to express my keen interest in a Front-End Development position. As an individual with a strong background in software support, I possess a solid foundation in problem-solving and troubleshooting. This experience has also allowed me to develop and refine my communication skills, as well as my ability to collaborate effectively within a team environment. While my professional focus has thus far been on software support, my passion for front-end development has always been present, and I am now eager to fully immerse myself in this field.</p>
+
 			<p>Regarding my technical proficiencies, I have attained significant expertise in crafting responsive and user-friendly websites, utilizing contemporary technologies such as HTML5, CSS3, JavaScript, React, and jQuery. I have demonstrated proficiency in creating custom web designs from scratch, as well as integrating third-party applications into existing websites. Furthermore, I possess valuable experience developing mobile-first, cross-browser compatible websites that deliver seamless user experiences across all devices.</p>
+
 			<p>I am highly motivated and enthusiastic about the prospect of deepening my understanding of front-end development techniques and approaches, and contributing a team's success. My eagerness to learn, coupled with my dedication to producing high-quality work, renders me an asset to any team.</p>
+
 			<p>I am a skilled communicator and team player, with a clear understanding of the importance of effective collaboration and communication in achieving project goals. I have substantial experience operating in fast-paced, deadline-driven environments, and thrive under such conditions.</p>
+
 			<p>I am excited about the prospect of embarking upon my front-end development career. Thank you for visiting my site. I look forward to hearing from you soon.</p>
 		</div>
-	  </section>
-	</main>
-	<footer aria-label="Footer">
-	 <a href="mailto: dmlawrence@gmail.com">DmLawrence@gmail.com</a>
-	</footer>
 	</div>
-  </body>
+	<footer>
+		<ul>
+			<li><a href="https://www.linkedin.com/in/davidmichael-lawrence-5b5216a9" target="_blank">Linkdin</a></li>
+			<li><a href="https://www.facebook.com/TheDavLaw" target="_blank">Facebook</a></li>
+			<li><a href="https://github.com/DmLawrence" target="_blank">GitHub</a></li>
+			<li><a href="https://stackoverflow.com/users/21494598/davidmichael-lawrence" target="_blank">Stack Overflow</a></li>
+		</ul>
+	</footer>
+</body>
 </html>
