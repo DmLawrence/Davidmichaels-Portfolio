@@ -4,10 +4,11 @@ body {
 	width: 100%;
 	font-family: 'Trebuchet MS', 'Century Gothic';
 	background-color: #222831;
-	background-image: url("./resources/bg-img.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
+	background: url(./resources/bg-img.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: #EEEEEE;
 }
 
@@ -152,6 +153,22 @@ footer>ul>li {
 .dark-bg {
 	background-color: #222831;
 	margin-bottom: 10px;
+}
+
+/*Constuction Page*/
+#construction {
+	background: url(./resources/construction-bg.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+}
+
+#constuction .title {
+			height: 95vh;
+			display: grid;
+			justify-content: center;
+			align-content: center;
 }
 
 /*Media Calls*/
