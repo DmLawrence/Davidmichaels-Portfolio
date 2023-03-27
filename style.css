@@ -5,7 +5,7 @@ body {
 	font-family: 'Trebuchet MS', 'Century Gothic';
 	background-color: #222831;
 	background-image: url("./resources/bg-img.jpg");
-	background-repeat: space;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	color: #EEEEEE;
@@ -69,8 +69,8 @@ img {
 }
 
 h1 span {
-	padding:5px;
-	border-radius: 30px;
+	padding:10px;
+	border-radius: 15px;
 	background-color: rgba(34, 40, 49, .8);
 
 }
