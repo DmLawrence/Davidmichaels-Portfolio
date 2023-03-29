@@ -4,10 +4,11 @@ body {
 	width: 100%;
 	font-family: 'Trebuchet MS', 'Century Gothic';
 	background-color: #222831;
-	background-image: url("./resources/bg-img.jpg");
-	background-repeat: space;
-	background-position: center;
-	background-attachment: fixed;
+	background: url(./resources/bg-img.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: #EEEEEE;
 }
 
@@ -69,8 +70,8 @@ img {
 }
 
 h1 span {
-	padding:5px;
-	border-radius: 30px;
+	padding:10px;
+	border-radius: 15px;
 	background-color: rgba(34, 40, 49, .8);
 
 }
@@ -84,6 +85,10 @@ h1 span {
 }
 h2 {
 	text-align: center;
+}
+
+#welcome {
+	margin-bottom: 60vh;
 }
 
 /*Footer*/
@@ -154,11 +159,28 @@ footer>ul>li {
 	margin-bottom: 10px;
 }
 
+/*Constuction Page*/
+#construction {
+	background: url(./resources/construction-bg.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+}
+
+#construction .title {
+			height: 95vh;
+			display: grid;
+			justify-content: center;
+			align-content: center;
+}
+
 /*Media Calls*/
 @media only screen and (max-width:620px) {
 	/*Nav*/
 	nav li {
 		font-size:.7em;
+		padding: 20px 10px;
 	}
 
 	/*Title*/
