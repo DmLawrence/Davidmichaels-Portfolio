@@ -113,6 +113,8 @@ footer>ul {
 
 footer>ul>li {
 	padding:0 10px;
+	white-space: nowrap;
+	font-size: 1rem;
 }
 
 /*Resume*/
@@ -186,6 +188,12 @@ footer>ul>li {
 	/*Title*/
 	h1 {
 		font-size: 1.5rem;
+	}
+
+	/*Footer*/
+	footer li {
+		font-size:.7em;
+		padding: 20px 10px;
 	}
 
 	/*Cover Letter*/
