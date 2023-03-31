@@ -176,6 +176,19 @@ footer li {
 			align-content: center;
 }
 
+/*Gallery*/
+.gallery {
+	display: grid;
+	grid-template: 300px / repeat(auto-fill, minmax(300px, 1fr));
+	justify-content: space-around;
+	gap: 20px;
+}
+
+.gallery img {
+	height: 300px;
+	justify-self: center;
+}
+
 /*Media Calls*/
 @media only screen and (max-width:620px) {
 	/*Nav*/
