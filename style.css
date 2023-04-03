@@ -188,12 +188,11 @@ footer li {
 .gallery-img {
 	display: flex;
 	justify-content: space-around;
-	height: 50%;
+	height: 70%;
 }
 
 .gallery img {
 	height: 100%;
-	max-height: 230px;
 }
 
 .gala-img-cont {
@@ -207,6 +206,20 @@ footer li {
 	font-size: 1.2rem;
 	white-space: nowrap;
 	margin-bottom: 10px;
+}
+
+#fullpage {
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-color: black;
 }
 
 /*Media Calls*/
