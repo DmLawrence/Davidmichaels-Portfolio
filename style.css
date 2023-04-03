@@ -188,7 +188,7 @@ footer li {
 .gallery-img {
 	display: flex;
 	justify-content: space-around;
-	height: 70%;
+	height: 50%;
 }
 
 .gallery img {
