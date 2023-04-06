@@ -216,7 +216,7 @@ footer li {
   background-size: contain;
   background-repeat: no-repeat no-repeat;
   background-position: center center;
-  background-color: black;
+  background-color: rgba(63, 72, 85, .7);
 }
 
 /*Media Calls*/

@@ -9,12 +9,12 @@ imgs.forEach(img => {
   });
 });
 
-function closeFullscreen() {
+const closeFullscreen = () => {
   fullPage.style.display='none';
   scrollEnable();
 }
 
-function scrollDisable() {
+const scrollDisable = () => {
     // To get the scroll position of current webpage
     TopScroll = window.pageYOffset || document.documentElement.scrollTop;
     LeftScroll = window.pageXOffset || document.documentElement.scrollLeft,
@@ -25,6 +25,6 @@ function scrollDisable() {
             };
     }
 
-function scrollEnable() {
+const scrollEnable = () => {
 window.onscroll = function() {};
 }
