@@ -185,17 +185,16 @@ footer li {
 .gallery-img {
 	display: flex;
 	justify-content: space-around;
-	height: 50%;
+	height: 250px;
 }
 
-.gallery img {
+.gallery-img img {
 	height: 100%;
 }
 
 .gala-img-cont {
 	padding: 10px;
-	margin-top: 10px;
-	border-top: 2px solid;
+	height: 100px;
 }
 
 .art-title {
@@ -203,6 +202,17 @@ footer li {
 	font-size: 1.2rem;
 	white-space: nowrap;
 	margin-bottom: 10px;
+	height: 25px;
+}
+
+.icon{
+	display: flex;
+	justify-content: space-around;
+}	
+.icon img {
+	height: 25px;
+	width: 25px;
+	margin-top: auto;
 }
 
 #fullpage {
